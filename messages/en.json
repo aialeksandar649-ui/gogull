@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "GoGull — Real experiences, not endless scrolling",
+    "description": "Turn swipe addiction into real experiences. Fresh video previews of places around you."
+  },
+  "nav": {
+    "users": "For you",
+    "business": "For business",
+    "creators": "For creators",
+    "cta": "Open app"
+  },
+  "hero": {
+    "headline": "knows where to go",
+    "headlineSecond": "See what's happening right now.",
+    "cta": "See the app",
+    "disclaimer": "The app is currently available in a limited area. We're constantly expanding across Croatia!",
+    "prev": "Previous location",
+    "next": "Next location",
+    "mute": "Mute",
+    "unmute": "Unmute"
+  },
+  "users": {
+    "title": "For you",
+    "subtitle": "Escape the endless scroll",
+    "intro": "We take you from endless scrolling to real places around you — fast, clear and with no fake photos.",
+    "items": {
+      "escape": {
+        "title": "Escape the feed",
+        "description": "Turn reel swiping into inspiration for real places around you."
+      },
+      "video": {
+        "title": "Fresh video only",
+        "description": "No outdated or misleading photos — just real video previews of places."
+      },
+      "plan": {
+        "title": "Plan ahead",
+        "description": "Save locations and plan your next trips and nights out."
+      }
+    }
+  },
+  "business": {
+    "title": "For business",
+    "subtitle": "Targeted visibility, real interest",
+    "intro": "Your location reaches people who are actually nearby and actually interested — without burning budget on a broad audience.",
+    "radius": "50 km",
+    "radiusLabel": "Targeted radius around your spot",
+    "highlight": "More affordable and precise than Google and Meta ads.",
+    "items": {
+      "visibility": {
+        "title": "Targeted visibility",
+        "description": "Only people within 50 km see your location."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Insights into views, saves, and genuine user interest."
+      },
+      "sales": {
+        "title": "More sales",
+        "description": "Share useful info with the right audience."
+      },
+      "value": {
+        "title": "Better value",
+        "description": "Far more affordable and precise than Google or Meta ads."
+      },
+      "influencers": {
+        "title": "Influencer matchmaking",
+        "description": "Find quality creators to shoot promo video for your business."
+      }
+    }
+  },
+  "creators": {
+    "title": "For creators",
+    "subtitle": "More reach, direct collabs",
+    "intro": "Film the places you love, grow your reach and connect directly with businesses that need your content.",
+    "cta": "Become a creator",
+    "items": {
+      "reach": {
+        "title": "More visibility",
+        "description": "Grow your reach and tag your other social profiles."
+      },
+      "collab": {
+        "title": "Direct collaborations",
+        "description": "Our program connects you with businesses that need promo content."
+      }
+    }
+  },
+  "freshness": {
+    "eyebrow": "Always fresh",
+    "title": "You know every last detail before you go",
+    "paragraph": "For every location we surface what matters most, and the community keeps it fresh together — so when you head somewhere, you know what's waiting for you down to the smallest detail. Neither Google nor ChatGPT can know about a place what we do: they show you photos and reviews that can be half a year old, while we show you what's happening right now.",
+    "live": "Right now",
+    "old": {
+      "title": "Google · ChatGPT",
+      "p1": "Photos and reviews months out of date",
+      "p2": "Generic descriptions and stale data",
+      "p3": "No idea how it actually is right now"
+    },
+    "new": {
+      "title": "GoGull",
+      "p1": "Fresh video — happening right now",
+      "p2": "Everything essential in one place",
+      "p3": "The community keeps it up to date"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "From scrolling to a real place in three steps",
+    "intro": "No googling, no stale reviews — just what's happening right now.",
+    "steps": {
+      "scroll": {
+        "title": "Scroll",
+        "description": "Open the app and scroll short video previews of places near you."
+      },
+      "discover": {
+        "title": "Discover",
+        "description": "Watch fresh clips — you see the real vibe, not polished photos."
+      },
+      "go": {
+        "title": "Go",
+        "description": "Save a spot you like and turn it into a real experience."
+      }
+    }
+  },
+  "footer": {
+    "cta": "See the app",
+    "brandTagline": "Turn swipe addiction into real experiences.",
+    "followUs": "Follow us",
+    "newsletterTitle": "Coming to your city",
+    "newsletterDescription": "Sign up and be the first to know when we arrive in your city!",
+    "emailPlaceholder": "Your email address",
+    "submit": "Sign up",
+    "success": "Thanks! We'll let you know when we reach your city.",
+    "error": "Something went wrong. Please try again.",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "copyright": "© {year} GoGull. All rights reserved."
+  },
+  "language": {
+    "hr": "HR",
+    "en": "EN"
+  }
+}
