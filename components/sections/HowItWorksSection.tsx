@@ -9,9 +9,9 @@ export function HowItWorksSection() {
   const t = useTranslations("howItWorks");
 
   const steps = [
-    { key: "scroll", n: "01" },
-    { key: "discover", n: "02" },
-    { key: "go", n: "03" },
+    { key: "discover", n: "01" },
+    { key: "plan", n: "02" },
+    { key: "share", n: "03" },
   ] as const;
 
   return (

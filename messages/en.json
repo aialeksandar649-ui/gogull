@@ -1,12 +1,15 @@
 {
   "meta": {
-    "title": "GoGull — Real experiences, not endless scrolling",
-    "description": "Turn swipe addiction into real experiences. Fresh video previews of places around you."
+    "title": "GoGull — Discover, plan & share Dalmatia",
+    "description": "An interactive map, short videos and an AI day planner for Split and Dalmatia. Discover hidden gems, build the perfect day trip and share it with a single code — free, in 6 languages.",
+    "partnersTitle": "GoGull for business & creators",
+    "partnersDescription": "Targeted visibility for your business and direct collabs for content creators — all in one place."
   },
   "nav": {
     "users": "For you",
     "business": "For business",
     "creators": "For creators",
+    "partners": "For business & creators",
     "cta": "Open app"
   },
   "hero": {
@@ -21,112 +24,197 @@
   },
   "users": {
     "title": "For you",
-    "subtitle": "Escape the endless scroll",
-    "intro": "We take you from endless scrolling to real places around you — fast, clear and with no fake photos.",
+    "subtitle": "A local in your pocket, not another guidebook",
+    "intro": "A map that knows Dalmatia, videos that let you feel a place before you set foot there, and a planner that builds your day. All in one spot.",
+    "videoBadge": "Posted this morning",
+    "trust": {
+      "money": "We don't sell your data",
+      "subs": "No subscriptions, no endless ads",
+      "fee": "We earn a small fee from businesses, not from you"
+    },
     "items": {
-      "escape": {
-        "title": "Escape the feed",
-        "description": "Turn reel swiping into inspiration for real places around you."
+      "map": {
+        "title": "A map that knows Dalmatia",
+        "description": "Beaches, taverns, viewpoints, hidden spots — sorted by category and vibe, with live info on crowds and opening hours."
       },
       "video": {
-        "title": "Fresh video only",
-        "description": "No outdated or misleading photos — just real video previews of places."
+        "title": "See the place before you arrive",
+        "description": "Short videos of every location — you don't read about a place, you watch it. No photos from 2019, no touch-ups."
       },
       "plan": {
-        "title": "Plan ahead",
-        "description": "Save locations and plan your next trips and nights out."
+        "title": "A planner that builds your day",
+        "description": "Turn saved spots into a day trip — AI suggests the order, timing, costs and a local tip for every stop."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "Peek inside the app",
+    "title": "Map, planner and a share code — a whole trip in three moves",
+    "intro": "This is what it looks like from the inside. No bookings, no transactions — just discovering, planning and sharing.",
+    "map": {
+      "label": "Interactive map",
+      "title": "All of Dalmatia, sorted by your vibe",
+      "description": "Beaches, food & drink, nature, heritage, nightlife, local producers — filter by category, subcategory or vibe: romantic, kid-friendly, hidden gems. Every location shows how crowded it is and whether it's open right now.",
+      "search": "Search locations…",
+      "chips": {
+        "beaches": "Beaches",
+        "food": "Food & drink",
+        "nature": "Nature",
+        "views": "Viewpoints"
+      },
+      "pins": {
+        "beach": "Kašjuni Beach",
+        "tavern": "Tavern",
+        "viewpoint": "Viewpoint"
+      },
+      "crowd": "Right now: not crowded",
+      "open": "Open"
+    },
+    "planner": {
+      "label": "Day planner",
+      "title": "From saved spots to a realistic day",
+      "description": "Pick stops from your Nest and AI puts them in a logical order, estimates timing and costs and adds a local tip for each — based on your day's vibe: chill, adrenaline, culture, food or romance.",
+      "cardTitle": "Your day · Split",
+      "vibe": "Chill",
+      "stops": {
+        "coffee": { "time": "09:00", "name": "Coffee on the Riva", "cost": "€2" },
+        "beach": { "time": "10:30", "name": "Kašjuni Beach", "cost": "€0" },
+        "lunch": { "time": "13:30", "name": "Konoba Argola", "cost": "€25" }
+      },
+      "aiTip": "Tip: hit Kašjuni before 10 am — after that there's no room for your towel.",
+      "optimize": "AI optimize",
+      "total": "≈ 6 h · €27"
+    },
+    "share": {
+      "label": "Share by code",
+      "title": "A whole trip in six characters",
+      "description": "Every plan gets a unique code. Send it to a friend, they type it in and see the whole trip — stops, route, costs. No sign-up, no install. It works for single places you describe in your own words, too.",
+      "hint": "Type the code and see the whole trip — no sign-up",
+      "codeLabel": "Trip code",
+      "shared": "Shared with 4 friends"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Discover. Plan. Share.",
+    "intro": "Three steps that naturally follow each other — from \"where to today?\" to a finished plan in someone else's pocket.",
+    "steps": {
+      "discover": {
+        "title": "Discover",
+        "description": "Scroll the map and the videos — from famous beaches to hidden spots that never make the guidebooks."
+      },
+      "plan": {
+        "title": "Plan",
+        "description": "Save what you like to your Nest and build a realistic, doable day with a little help from AI."
+      },
+      "share": {
+        "title": "Share",
+        "description": "Send the plan with a single code — your friend opens it without signing up and follows your trail."
+      }
+    }
+  },
+  "extras": {
+    "eyebrow": "And the little things that make the difference",
+    "title": "Small details, big character",
+    "items": {
+      "nest": {
+        "title": "The Nest",
+        "description": "Your saved locations, organized into collections — a personal wishlist of Dalmatia."
+      },
+      "quiz": {
+        "title": "Quizzes & fun facts",
+        "description": "Hovering over Split on the map? Get a quick quiz and stories about the area, with points for correct answers."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Visual reviews, atmosphere verdicts and publicly shared plans from fellow explorers."
+      },
+      "languages": {
+        "title": "6 languages",
+        "description": "Croatian, English, German, Spanish, French and Italian — for locals and guests alike."
+      },
+      "crowd": {
+        "title": "Live crowd info",
+        "description": "Before you head out, see how busy it is and whether the place is open right now."
+      },
+      "platforms": {
+        "title": "Web & Android",
+        "description": "Works in the browser and as an app — no mandatory install."
       }
     }
   },
   "business": {
     "title": "For business",
-    "subtitle": "Targeted visibility, real interest",
-    "intro": "Your location reaches people who are actually nearby and actually interested — without burning budget on a broad audience.",
+    "subtitle": "Seen by people who are actually nearby",
+    "intro": "No burning budget on the whole country — your location reaches whoever's actually close and actually interested.",
     "radius": "50 km",
-    "radiusLabel": "Targeted radius around your spot",
-    "highlight": "More affordable and precise than Google and Meta ads.",
+    "radiusLabel": "That's how far your audience sees you",
+    "highlight": "Cheaper and more precise than Google and Meta ads. No guesswork.",
+    "transparency": "We charge a small fee per published video and per ticket sold — that's it. No hidden costs, no surprises on your invoice.",
     "items": {
       "visibility": {
         "title": "Targeted visibility",
-        "description": "Only people within 50 km see your location."
+        "description": "Only people within a 50 km radius see your location — not all of Croatia."
       },
       "analytics": {
-        "title": "Analytics",
-        "description": "Insights into views, saves, and genuine user interest."
+        "title": "Analytics that mean something",
+        "description": "See views, saves, and real interest — not just reach numbers."
       },
       "sales": {
         "title": "More sales",
-        "description": "Share useful info with the right audience."
+        "description": "The right info reaches the right people, right when they need it."
       },
       "value": {
-        "title": "Better value",
+        "title": "No overpaying",
         "description": "Far more affordable and precise than Google or Meta ads."
       },
       "influencers": {
         "title": "Influencer matchmaking",
-        "description": "Find quality creators to shoot promo video for your business."
+        "description": "We find creators who'll actually shoot a good video for you, not recycled content."
       }
     }
   },
   "creators": {
     "title": "For creators",
     "subtitle": "More reach, direct collabs",
-    "intro": "Film the places you love, grow your reach and connect directly with businesses that need your content.",
+    "intro": "Already filming the places you love? Turn it into reach and collabs with businesses that need exactly that content.",
     "cta": "Become a creator",
     "items": {
       "reach": {
-        "title": "More visibility",
-        "description": "Grow your reach and tag your other social profiles."
+        "title": "More reach",
+        "description": "Your video reaches people actually looking for that spot — plus a tag to your other profiles."
       },
       "collab": {
         "title": "Direct collaborations",
-        "description": "Our program connects you with businesses that need promo content."
+        "description": "No agencies, no waiting — we connect you straight to businesses that need content."
       }
     }
   },
   "freshness": {
-    "eyebrow": "Always fresh",
-    "title": "You know every last detail before you go",
-    "paragraph": "For every location we surface what matters most, and the community keeps it fresh together — so when you head somewhere, you know what's waiting for you down to the smallest detail. Neither Google nor ChatGPT can know about a place what we do: they show you photos and reviews that can be half a year old, while we show you what's happening right now.",
+    "eyebrow": "No stale photos",
+    "title": "You know how it is right now, not last summer",
+    "paragraph": "For every location we surface what matters most, and the community keeps it fresh together. Google serves you a photo that's two years old and a review from someone who visited once. We show you footage from this morning.",
     "live": "Right now",
     "old": {
       "title": "Google · ChatGPT",
-      "p1": "Photos and reviews months out of date",
-      "p2": "Generic descriptions and stale data",
-      "p3": "No idea how it actually is right now"
+      "stamp": "📷 June 2022",
+      "p1": "Photos that are years old",
+      "p2": "A review that might've been accurate once",
+      "p3": "No clue how it actually is right now"
     },
     "new": {
       "title": "GoGull",
-      "p1": "Fresh video — happening right now",
+      "p1": "Video from this morning, not last summer",
       "p2": "Everything essential in one place",
-      "p3": "The community keeps it up to date"
-    }
-  },
-  "howItWorks": {
-    "eyebrow": "How it works",
-    "title": "From scrolling to a real place in three steps",
-    "intro": "No googling, no stale reviews — just what's happening right now.",
-    "steps": {
-      "scroll": {
-        "title": "Scroll",
-        "description": "Open the app and scroll short video previews of places near you."
-      },
-      "discover": {
-        "title": "Discover",
-        "description": "Watch fresh clips — you see the real vibe, not polished photos."
-      },
-      "go": {
-        "title": "Go",
-        "description": "Save a spot you like and turn it into a real experience."
-      }
+      "p3": "The community flags it the moment something changes"
     }
   },
   "footer": {
     "cta": "See the app",
-    "brandTagline": "Turn swipe addiction into real experiences.",
+    "brandTagline": "A local guide, planner and community of explorers — with a Dalmatian twist.",
     "followUs": "Follow us",
     "newsletterTitle": "Coming to your city",
-    "newsletterDescription": "Sign up and be the first to know when we arrive in your city!",
+    "newsletterDescription": "Leave your email — we'll tell you the moment GoGull lands where you are.",
     "emailPlaceholder": "Your email address",
     "submit": "Sign up",
     "success": "Thanks! We'll let you know when we reach your city.",

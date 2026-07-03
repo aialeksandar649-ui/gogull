@@ -2,15 +2,15 @@ import { useTranslations } from "next-intl";
 import { FeatureCard } from "./FeatureCard";
 import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { EscapeIcon, PlanIcon, VideoIcon } from "./icons";
+import { MapIcon, RouteIcon, VideoIcon } from "./icons";
 
 export function ForUsersSection() {
   const t = useTranslations("users");
 
   const items = [
-    { key: "escape", icon: <EscapeIcon /> },
+    { key: "map", icon: <MapIcon /> },
     { key: "video", icon: <VideoIcon /> },
-    { key: "plan", icon: <PlanIcon /> },
+    { key: "plan", icon: <RouteIcon /> },
   ] as const;
 
   return (

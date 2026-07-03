@@ -1,13 +1,16 @@
 {
   "meta": {
-    "title": "GoGull — Stvarna iskustva, ne swajpanje",
-    "description": "Pretvori ovisnost o swajpanju u stvarna iskustva. Ažurni video prikazi mjesta oko tebe."
+    "title": "GoGull — Otkrij, isplaniraj i podijeli Dalmaciju",
+    "description": "Interaktivna karta, kratki videi i AI planer dana za Split i Dalmaciju. Otkrij skrivena mjesta, složi savršen izlet i podijeli ga jednim kodom — besplatno, na 6 jezika.",
+    "partnersTitle": "GoGull za biznise i kreatore",
+    "partnersDescription": "Ciljana vidljivost za tvoj biznis i direktne suradnje za kreatore sadržaja — sve na jednom mjestu."
   },
   "nav": {
     "users": "Za tebe",
     "business": "Za biznise",
     "creators": "Za kreatore",
-    "cta": "Otvori app"
+    "partners": "Za biznise i kreatore",
+    "cta": "Pogledaj aplikaciju"
   },
   "hero": {
     "headline": "zna gdje ići",
@@ -21,112 +24,197 @@
   },
   "users": {
     "title": "Za tebe",
-    "subtitle": "Bijeg iz zatvorenog ekrana",
-    "intro": "Aplikacija te vodi iz beskonačnog skrolanja u stvarna mjesta oko tebe — brzo, jasno i bez lažnih slika.",
+    "subtitle": "Lokalac u džepu, ne još jedan vodič",
+    "intro": "Karta koja zna Dalmaciju, videi kojima mjesto doživiš prije nego kročiš na njega i planer koji ti složi dan. Sve na jednom mjestu.",
+    "videoBadge": "Objavljeno jutros",
+    "trust": {
+      "money": "Ne prodajemo tvoje podatke",
+      "subs": "Bez pretplata i beskonačnih reklama",
+      "fee": "Zarađujemo mali fee od biznisa, ne od tebe"
+    },
     "items": {
-      "escape": {
-        "title": "Bijeg iz zatvorenog",
-        "description": "Pretvori swajpanje reelsova u inspiraciju za stvarna mjesta oko sebe."
+      "map": {
+        "title": "Karta koja zna Dalmaciju",
+        "description": "Plaže, konobe, vidikovci, skrivena mjesta — sve po kategorijama i vibe-u, s infom je li gužva i je li otvoreno."
       },
       "video": {
-        "title": "Samo ažurni video prikazi",
-        "description": "Nema prastarih i netočnih slika — samo stvarni video prikazi mjesta."
+        "title": "Mjesto vidiš prije nego dođeš",
+        "description": "Kratki videi lokacija — ne čitaš o mjestu, nego ga gledaš. Bez fotki iz 2019. i uljepšavanja."
       },
       "plan": {
-        "title": "Planiranje",
-        "description": "Spremi lokacije i planiraj buduće izlete i izlaske."
+        "title": "Planer koji ti složi dan",
+        "description": "Od spremljenih mjesta složiš izlet — AI predloži redoslijed, trajanje, troškove i lokalni savjet za svaku postaju."
+      }
+    }
+  },
+  "showcase": {
+    "eyebrow": "Zaviri u aplikaciju",
+    "title": "Karta, planer i kod — cijeli izlet u tri poteza",
+    "intro": "Ovako to izgleda iznutra. Bez rezervacija i transakcija — samo otkrivanje, planiranje i dijeljenje.",
+    "map": {
+      "label": "Interaktivna karta",
+      "title": "Cijela Dalmacija, razvrstana po tvom vibe-u",
+      "description": "Plaže, hrana i piće, priroda, kulturna baština, noćni život, lokalni proizvođači — filtriraj po kategoriji, potkategoriji ili vibe-u: romantično, za djecu, skriveni dragulji. Uz svaku lokaciju vidiš koliko je gužva i je li otvoreno.",
+      "search": "Pretraži lokacije…",
+      "chips": {
+        "beaches": "Plaže",
+        "food": "Hrana i piće",
+        "nature": "Priroda",
+        "views": "Vidikovci"
+      },
+      "pins": {
+        "beach": "Plaža Kašjuni",
+        "tavern": "Konoba",
+        "viewpoint": "Vidikovac"
+      },
+      "crowd": "Trenutno: malo ljudi",
+      "open": "Otvoreno"
+    },
+    "planner": {
+      "label": "Planer dana",
+      "title": "Od spremljenih mjesta do realnog dana",
+      "description": "Odabereš postaje iz svog Gnijezda, a AI ih poreda logično, procijeni trajanje i troškove te doda lokalni savjet za svaku — ovisno o vibe-u dana: chill, adrenalin, kultura, gastro ili romantika.",
+      "cardTitle": "Tvoj dan · Split",
+      "vibe": "Chill",
+      "stops": {
+        "coffee": { "time": "09:00", "name": "Kava na Rivi", "cost": "2 €" },
+        "beach": { "time": "10:30", "name": "Plaža Kašjuni", "cost": "0 €" },
+        "lunch": { "time": "13:30", "name": "Konoba Argola", "cost": "25 €" }
+      },
+      "aiTip": "Savjet: na Kašjune kreni prije 10 h — poslije nema mjesta za ručnik.",
+      "optimize": "AI optimiziraj",
+      "total": "≈ 6 h · 27 €"
+    },
+    "share": {
+      "label": "Dijeljenje kodom",
+      "title": "Cijeli izlet u šest znakova",
+      "description": "Svaki plan dobije jedinstven kod. Pošalješ ga prijatelju, on ga upiše i vidi cijeli izlet — postaje, rutu, troškove. Bez prijave, bez instaliranja. Isto radi i za pojedinačna mjesta koja opišeš svojim riječima.",
+      "hint": "Upiši kod i vidiš cijeli izlet — bez prijave",
+      "codeLabel": "Kod izleta",
+      "shared": "Podijeljeno s 4 prijatelja"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Kako radi",
+    "title": "Otkrij. Isplaniraj. Podijeli.",
+    "intro": "Tri koraka koja prirodno slijede jedan drugi — od \"kamo danas?\" do gotovog plana u tuđem džepu.",
+    "steps": {
+      "discover": {
+        "title": "Otkrij",
+        "description": "Skrolaj kartu i videe — od poznatih plaža do skrivenih mjesta koja ne završe u vodičima."
+      },
+      "plan": {
+        "title": "Isplaniraj",
+        "description": "Spremi što ti se sviđa u Gnijezdo i složi realan, izvediv dan uz pomoć AI-a."
+      },
+      "share": {
+        "title": "Podijeli",
+        "description": "Pošalji plan jednim kodom — prijatelj ga otvori bez prijave i kreće za tobom."
+      }
+    }
+  },
+  "extras": {
+    "eyebrow": "I još sitnica koje čine razliku",
+    "title": "Mali detalji, veliki štih",
+    "items": {
+      "nest": {
+        "title": "Gnijezdo",
+        "description": "Tvoje spremljene lokacije, organizirane u kolekcije — osobni wishlist Dalmacije."
+      },
+      "quiz": {
+        "title": "Kvizovi i zanimljivosti",
+        "description": "Iznad Splita na karti? Kratki kviz i priče o kraju, uz bodove za točne odgovore."
+      },
+      "community": {
+        "title": "Zajednica",
+        "description": "Vizualne recenzije, verdikti o atmosferi i javno objavljeni planovi drugih istraživača."
+      },
+      "languages": {
+        "title": "6 jezika",
+        "description": "Hrvatski, engleski, njemački, španjolski, francuski i talijanski — za lokalce i goste."
+      },
+      "crowd": {
+        "title": "Gužva uživo",
+        "description": "Prije nego kreneš, vidiš koliko je ljudi i je li mjesto trenutno otvoreno."
+      },
+      "platforms": {
+        "title": "Web i Android",
+        "description": "Radi u pregledniku i kao aplikacija — bez obaveznog instaliranja."
       }
     }
   },
   "business": {
     "title": "Za biznise",
-    "subtitle": "Ciljana vidljivost, stvaran interes",
-    "intro": "Tvoju lokaciju vide ljudi koji su stvarno u blizini i stvarno zainteresirani — bez bacanja novca na široku publiku.",
+    "subtitle": "Vide te ljudi koji su stvarno u blizini",
+    "intro": "Bez bacanja budžeta na cijelu državu — tvoju lokaciju vidi tko je stvarno blizu i stvarno zainteresiran.",
     "radius": "50 km",
-    "radiusLabel": "Ciljani domet oko tvoje lokacije",
-    "highlight": "Povoljnije i preciznije od Google i Meta oglasa.",
+    "radiusLabel": "Toliko daleko te vidi tvoja publika",
+    "highlight": "Jeftinije i preciznije od Google i Meta oglasa. Bez pogađanja.",
+    "transparency": "Zarađujemo mali fee po objavljenom videu i prodanoj karti — to je sve. Bez skrivenih troškova, bez iznenađenja na fakturi.",
     "items": {
       "visibility": {
         "title": "Ciljana vidljivost",
-        "description": "Lokaciju vide isključivo ljudi u dometu od 50 km."
+        "description": "Lokaciju vide isključivo ljudi u krugu od 50 km — ne cijela Hrvatska."
       },
       "analytics": {
-        "title": "Analitika",
-        "description": "Uvid u preglede, spremanja i stvaran interes korisnika."
+        "title": "Analitika koja nešto znači",
+        "description": "Vidiš preglede, spremanja i stvaran interes, ne samo dosege."
       },
       "sales": {
         "title": "Veća prodaja",
-        "description": "Dijeli korisne informacije specifičnoj publici."
+        "description": "Info stiže baš onima kojima treba, kad im treba."
       },
       "value": {
-        "title": "Isplativost",
-        "description": "Puno povoljnija i preciznija opcija od Google ili Meta oglasa."
+        "title": "Bez preplaćivanja",
+        "description": "Puno povoljnije i preciznije od Google ili Meta oglasa."
       },
       "influencers": {
         "title": "Influencer matchmaking",
-        "description": "Pronađi kvalitetne influencere koji će snimiti promo video za tvoj biznis."
+        "description": "Nađemo ti kreatore koji će ti stvarno snimiti dobar video, ne reciklirani sadržaj."
       }
     }
   },
   "creators": {
     "title": "Za kreatore",
-    "subtitle": "Veća vidljivost, direktne suradnje",
-    "intro": "Snimaj mjesta koja voliš, povećaj doseg i poveži se direktno s biznisima kojima treba tvoj sadržaj.",
+    "subtitle": "Veći doseg, direktne suradnje",
+    "intro": "Snimaš mjesta koja voliš? Pretvori to u doseg i suradnje s biznisima kojima baš takav sadržaj treba.",
     "cta": "Postani kreator",
     "items": {
       "reach": {
-        "title": "Veća vidljivost",
-        "description": "Povećaj doseg i tagiraj svoje ostale društvene mreže."
+        "title": "Veći doseg",
+        "description": "Tvoj video vidi publika koja traži baš to mjesto — plus tag na tvoje ostale profile."
       },
       "collab": {
         "title": "Direktne suradnje",
-        "description": "Naš program te direktno spaja s biznisima kojima treba promo materijal."
+        "description": "Bez agencija i čekanja — spajamo te direktno s biznisima kojima treba sadržaj."
       }
     }
   },
   "freshness": {
-    "eyebrow": "Uvijek ažurno",
-    "title": "Znaš u najsitniji detalj gdje ideš",
-    "paragraph": "O svakoj lokaciji izdvajamo ono najbitnije, a zajednica se zajedno brine da informacije ostanu ažurne — tako da kad nekamo kreneš, znaš u najsitniji detalj što te čeka. Ni Google ni ChatGPT ne mogu znati o mjestu ono što znamo mi: nude ti slike i recenzije stare i po pola godine, dok ti mi pokazujemo što se događa upravo sada.",
-    "live": "Upravo sada",
+    "eyebrow": "Nema starih fotki",
+    "title": "Znaš kako je tamo baš sad, ne prošlog ljeta",
+    "paragraph": "Za svaku lokaciju izdvajamo ono bitno, a zajednica pazi da ostane ažurno. Google ti servira sliku staru dvije godine i recenziju nekoga tko je bio tamo jednom. Mi ti pokažemo snimku od jutros.",
+    "live": "Upravo sad",
     "old": {
       "title": "Google · ChatGPT",
-      "p1": "Slike i recenzije stare mjesecima",
-      "p2": "Generički opisi i zastarjeli podaci",
-      "p3": "Ne znaju kako je ondje baš sada"
+      "stamp": "📷 lipanj 2022.",
+      "p1": "Slike stare i po nekoliko godina",
+      "p2": "Recenzija koja je možda nekad bila točna",
+      "p3": "Pojma nemaju kako je tamo baš sad"
     },
     "new": {
       "title": "GoGull",
-      "p1": "Ažurni video — upravo sada",
-      "p2": "Sve najbitnije na jednom mjestu",
-      "p3": "Zajednica održava informacije svježima"
-    }
-  },
-  "howItWorks": {
-    "eyebrow": "Kako funkcionira",
-    "title": "Od skrolanja do stvarnog mjesta u tri koraka",
-    "intro": "Bez guglanja, bez starih recenzija — samo ono što se događa upravo sada.",
-    "steps": {
-      "scroll": {
-        "title": "Skrolaj",
-        "description": "Otvori aplikaciju i skrolaj kratke video prikaze mjesta u tvojoj blizini."
-      },
-      "discover": {
-        "title": "Otkrij",
-        "description": "Gledaj ažurne snimke — vidiš stvarnu atmosferu, ne uljepšane fotografije."
-      },
-      "go": {
-        "title": "Kreni",
-        "description": "Spremi lokaciju koja ti se svidi i pretvori je u stvarno iskustvo."
-      }
+      "p1": "Video od jutros, ne od prošlog ljeta",
+      "p2": "Sve bitno na jednom mjestu",
+      "p3": "Zajednica javi čim se nešto promijeni"
     }
   },
   "footer": {
     "cta": "Pogledaj aplikaciju",
-    "brandTagline": "Pretvori ovisnost o swajpanju u stvarna iskustva.",
+    "brandTagline": "Lokalni vodič, planer i zajednica istraživača — s dalmatinskim štihom.",
     "followUs": "Prati nas",
     "newsletterTitle": "Stižemo u tvoj grad",
-    "newsletterDescription": "Prijavi se i saznaj prvi kada stižemo u tvoj grad!",
+    "newsletterDescription": "Ostavi mail, javimo ti se prvi čim GoGull stigne kod tebe.",
     "emailPlaceholder": "Tvoja e-mail adresa",
     "submit": "Prijavi se",
     "success": "Hvala! Javit ćemo ti se čim stignemo u tvoj grad.",
